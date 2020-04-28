@@ -17,7 +17,7 @@
       <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-cancelar" pill variant="outline-dark" @click="limparCampoPesquisa">Cancelar</b-button>
       <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-adicionar" pill variant="primary" @click="exibirModalAdicionar">Adicionar</b-button>
     </form>
-    
+
 
     <b-modal ref="modal-adicionar" hide-footer title="Catalogo de Series">
       <form @submit="adicionarSerie(serie)" v-if="adicionar">
@@ -273,7 +273,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #titulo-adicionar {
   color: blue;
 }

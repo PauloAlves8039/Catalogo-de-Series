@@ -2,13 +2,10 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
+      Aplicação desenvolvida para fins acadêmicos com o objetivo de catalogar uma lista de series favoritas utilizando MEVN Stack. 
+      . 
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>Plugins Instalados</h3>
     <ul>
       <li>
         <a
@@ -43,7 +40,7 @@
         >
       </li>
     </ul>
-    <h3>Essential Links</h3>
+    <h3>Links Essenciais</h3>
     <ul>
       <li>
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
@@ -67,8 +64,12 @@
         <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
       </li>
     </ul>
-    <h3>Ecosystem</h3>
+    <h3>Ecossistema</h3>
     <ul>
+      <li>
+        <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
+        >vue-cli</a>
+      </li>
       <li>
         <a href="https://router.vuejs.org" target="_blank" rel="noopener"
           >vue-router</a
