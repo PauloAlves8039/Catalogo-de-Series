@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Aplicação desenvolvida para fins acadêmicos com o objetivo de catalogar uma lista de series favoritas utilizando MEVN Stack. 
+      Aplicação desenvolvida para fins acadêmicos com o objetivo de catalogar uma lista de séries favoritas utilizando MEVN Stack. 
       . 
     </p>
     <h3>Plugins Instalados</h3>

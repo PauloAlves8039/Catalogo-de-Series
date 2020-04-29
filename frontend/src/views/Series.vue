@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 id="titulo-principal">Catálogo de Series</h1>
+    <h1 id="titulo-principal">Catálogo de Séries</h1>
 
     <b-alert
       :show="dismissCountDown"
@@ -13,16 +13,16 @@
     </b-alert>
 
     <form id="formulario-pesquisa" class="form-inline">
-      <input type="text" id="pesquisar" placeholder="Pesquisar Serie" class="form-control mb-2 mr-sm-2 mb-sm-0" v-model="pesquisa">
+      <input type="text" id="pesquisar" placeholder="Pesquisar Série" class="form-control mb-2 mr-sm-2 mb-sm-0" v-model="pesquisa">
       <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-cancelar" pill variant="outline-dark" @click="limparCampoPesquisa">Cancelar</b-button>
       <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-adicionar" pill variant="primary" @click="exibirModalAdicionar">Adicionar</b-button>
     </form>
 
 
-    <b-modal ref="modal-adicionar" hide-footer title="Catalogo de Series">
+    <b-modal ref="modal-adicionar" hide-footer title="Catálogo de Séries">
       <form @submit="adicionarSerie(serie)" v-if="adicionar">
         <div class="d-block text-center">
-          <h3 id="titulo-adicionar">Adicionar Serie</h3>
+          <h3 id="titulo-adicionar">Adicionar Série</h3>
           <input type="text" id="titulo-add" placeholder="Adicione um título" class="form-control my-2" v-model="serie.titulo">
           <input type="text" id="genero-add" placeholder="Adicione um gênero" class="form-control my-2" v-model="serie.genero">
           <input type="number" id="temporadas-add" placeholder="Adicione as temporadas" class="form-control my-2" v-model="serie.temporadas">
@@ -32,10 +32,10 @@
       </form>      
     </b-modal>
 
-    <b-modal ref="modal-atualizar" hide-footer title="Catalogo de Series">
+    <b-modal ref="modal-atualizar" hide-footer title="Catálogo de Séries">
       <form @submit="editarSerie(atualizarSerie)" v-if="editar">
         <div class="d-block text-center">
-          <h3 id="titulo-editar">Atualizar Serie</h3>
+          <h3 id="titulo-editar">Atualizar Série</h3>
           <input type="text" id="titulo-edt" placeholder="Atualizar título" class="form-control my-2" v-model="atualizarSerie.titulo">
           <input type="text" id="genero-edt" placeholder="Atualizar gênero" class="form-control my-2" v-model="atualizarSerie.genero">
           <input type="number" id="temporadas-edt" placeholder="Atualizar temporadas" class="form-control my-2" v-model="atualizarSerie.temporadas">

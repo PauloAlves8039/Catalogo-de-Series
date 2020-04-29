@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Bem-vindo(a) ao Catálogo de Series" />
+    <HelloWorld msg="Bem-vindo(a) ao Catálogo de Séries" />
   </div>
 </template>
 
