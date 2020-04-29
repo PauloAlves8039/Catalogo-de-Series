@@ -1,42 +1,33 @@
 <h1 align="center">:tv: Catalogo de Series</h1>
 
 <p align="center">
-  <a href="https://blog.npmjs.org/post/611593649031168000/release-6142"><img src="https://img.shields.io/badge/npm-v6.14.2-blue"></a>
-  <a href="https://docs.mongodb.com/manual/release-notes/3.4/"><img src="https://img.shields.io/badge/mongodb-v3.4.10-%2390EE90"></a>
+  <a href="https://docs.mongodb.com/manual/release-notes/3.4/"><img src="https://img.shields.io/badge/mongoDB-v3.4.10-yellowgreen"></a>
   <a href="https://expressjs.com/en/changelog/4x.html"><img src="https://img.shields.io/badge/express-v4.17.1-informational"></a>
-  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue.js-v2.9.11-brightgreen"></a>
-  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/node.js-v12.16.2-brightgreen"></a>
-  <a href="https://cli.vuejs.org/"><img src="https://img.shields.io/badge/vue--cli-v4.2.3-brightgreen"></a>
-  <a href="https://vuex.vuejs.org/guide/"><img src="https://img.shields.io/badge/vuex-v3.1.3-brightgreen"></a>
-  <a href="https://router.vuejs.org/guide/#html"><img src="https://img.shields.io/badge/vue--router-v3.1.6-brightgreen"></a>
-  <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/bootstrap-v4.4.1-%23AB82FF"></a>
-  <a href="https://bootstrap-vue.org/"><img src="https://img.shields.io/badge/bootstrap--vue-v2.12.0-%23AB82FF"></a>
-  <a href="https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html"><img src="https://img.shields.io/badge/axios-v0.19.2-orange"></a>
-  <a href="https://eslint.org/blog/2019/11/eslint-v6.7.2-released"><img src="https://img.shields.io/badge/eslint-v6.7.2-blueviolet"></a>
-  <a href="https://www.postman.com/downloads/"><img src="https://img.shields.io/badge/postman-v7.22.1-%23FF4500"></a>
+  <a href="https://cli.vuejs.org/"><img src="https://img.shields.io/badge/vue--cli-v4.2.3-%2390EE90"></a>
+  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/node.js-v12.16.2-%23228B22"></a>
 </p>
 
 ## :computer: Projeto
 Repositório de uma aplicação web desenvolvida para fins didáticos, no qual tem como objetivo catalogar uma lista de series favoritas usando MEVN Stack.  
 
-Nessa API é posivel realizar operações para listar, inserir, atualiza e excluir registros em uma interface gráfica com a utilização 
+Nessa API é posivel realizar operações para listar, inserir, pesquisar, atualizar e excluir registros em uma interface gráfica com a utilização 
 de dois modais e uma tabela com opções de manipulação desses registros.
 
 ## :wrench: Recursos Utilizados
-- Visual Studio Code v1.44.1
-- Postman v7.22.1
-- Npm v6.14.2
-- Bootstrap v4.4.1
-- Bootstrap-vue v2.12.0
-- MongoDb v3.4.10
-- Express v4.17.1
-- Vue.Js v2.9.11
-- Node.Js v12.16.2
-- Vue Router v3.1.6
-- Vuex v3.1.3
-- Vue CLI v4.2.3
-- Axios v0.19.2
-- Eslint v6.7.2
+- [Visual Studio Code v1.44.1](https://code.visualstudio.com/).
+- [Postman v7.22.1](https://www.postman.com/).
+- [Npm v6.14.2](https://blog.npmjs.org/post/611593649031168000/release-6142).
+- [Bootstrap v4.4.1](https://getbootstrap.com/).
+- [Bootstrap-vue v2.12.0](https://bootstrap-vue.org/).
+- [MongoDb v3.4.10](https://docs.mongodb.com/manual/release-notes/3.4/). 
+- [Express v4.17.1](https://expressjs.com/en/changelog/4x.html). 
+- [Vue.Js v2.9.11](https://cli.vuejs.org/). 
+- [Node.Js v12.16.2](https://nodejs.org/en/).
+- [Vue Router v3.1.6](https://router.vuejs.org/guide/).
+- [Vuex v3.1.3](https://vuex.vuejs.org/guide/).
+- [Vue CLI v4.2.3](https://cli.vuejs.org/).
+- [Axios v0.19.2](https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html).
+- [Eslint v6.7.2](https://eslint.org/blog/2019/11/eslint-v6.7.2-released).
 
 ## :floppy_disk: Instalação
 Baixar repositório ```git clone https://github.com/PauloAlves8039/Catalogo-de-Series.git```
