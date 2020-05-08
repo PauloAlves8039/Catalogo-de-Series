@@ -1,6 +1,13 @@
-import Vue from "vue"
-import App from "./App.vue"
-import router from "./router"
+/**
+ * @file: main.js
+ * @author: Paulo Alves
+ * @description: responsável pelas configurações de inicialização da aplicação.
+ * @version 1.0.1(28/04/2020)
+ */
+
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
 import store from "./store"
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -20,4 +27,4 @@ new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount("#app")
+}).$mount('#app')

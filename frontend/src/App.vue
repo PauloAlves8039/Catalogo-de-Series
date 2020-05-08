@@ -1,12 +1,28 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Início</router-link> |
-      <router-link to="/about">Sobre</router-link> |
-      <router-link to="/series">Séries</router-link>
+  
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark justify-content-between flex-nowrap flex-row">
+      <div class="container">
+        <a class="navbar-brand">Catálogo de Séries</a>
+        <ul class="nav navbar-nav flex-row float-right">
+          <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/">Início</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/About">Sobre</router-link>            
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/series">Lista de Séries</router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <router-view></router-view>
     </div>
-    <router-view />
   </div>
+  
 </template>
 
 <style>

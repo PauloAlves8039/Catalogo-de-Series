@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Bem-vindo(a) ao Catálogo de Séries" />
+    <HelloWorld msg="Bem-vindo(a)"/>
   </div>
 </template>
 
@@ -10,9 +9,9 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HelloWorld
   }
-};
+}
 </script>

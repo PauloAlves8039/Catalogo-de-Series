@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h1 id="titulo-principal">Catálogo de Séries</h1>
+  <div >
+    <h1 id="titulo-principal" class="text-center">Catálogo de Séries</h1>
 
     <b-alert
       :show="dismissCountDown"
@@ -13,9 +13,9 @@
     </b-alert>
 
     <form id="formulario-pesquisa" class="form-inline">
-      <input type="text" id="pesquisar" placeholder="Pesquisar Série" class="form-control mb-2 mr-sm-2 mb-sm-0" v-model="pesquisa">
+      <input type="text" id="pesquisar" placeholder="Pesquisar Séries" class="form-control mb-2 mr-sm-2 mb-sm-0" v-model="pesquisa">
       <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-cancelar" pill variant="outline-dark" @click="limparCampoPesquisa">Cancelar</b-button>
-      <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-adicionar" pill variant="primary" @click="exibirModalAdicionar">Adicionar</b-button>
+      <b-button class="mb-2 mr-sm-2 mb-sm-0" id="btn-adicionar" pill variant="success" @click="exibirModalAdicionar">Adicionar</b-button>
     </form>
 
 
@@ -39,13 +39,13 @@
           <input type="text" id="titulo-edt" placeholder="Atualizar título" class="form-control my-2" v-model="atualizarSerie.titulo">
           <input type="text" id="genero-edt" placeholder="Atualizar gênero" class="form-control my-2" v-model="atualizarSerie.genero">
           <input type="number" id="temporadas-edt" placeholder="Atualizar temporadas" class="form-control my-2" v-model="atualizarSerie.temporadas">
-          <b-button class="mt-2" variant="success" block type="submit">Atualizar</b-button>
+          <b-button class="mt-2" variant="primary" block type="submit">Atualizar</b-button>
           <b-button class="mt-2" variant="dark" block @click="fecharModalAtualizar">Fechar</b-button>        
       </div>
       </form>      
     </b-modal> 
 
-    <table id="table-series" class="table table-light table-bordered table-hover">
+    <table id="table-series" class="table table-light table-bordered table-hover text-center">
       <thead>
         <tr class="thead-dark">
           <th scope="col">Título</th>
@@ -60,7 +60,7 @@
           <td>{{ item.genero }}</td>
           <td>{{ item.temporadas }}</td>
           <td>
-            <b-button class="btn-md mx-1" pill variant="success" @click="ativarEdicao(item._id)">Editar</b-button>
+            <b-button class="btn-md mx-1" pill variant="primary" @click="ativarEdicao(item._id)">Editar</b-button>
             <b-button class="btn-md mx-1" pill variant="danger" @click="excluirSerie(item._id)">Excluir</b-button>
           </td>
         </tr>        
@@ -275,15 +275,18 @@ export default {
 
 <style scoped>
 #titulo-adicionar {
-  color: blue;
+  color: #42b983;
 }
 
-#titulo-principal, #titulo-editar {
+#titulo-principal {
   color: #42b983;
+}
+
+#titulo-editar {
+  color: blue;
 }
 
 #formulario-pesquisa, #table-series {
   margin-top: 20px;
 }
-
 </style>
