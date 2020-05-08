@@ -1,4 +1,4 @@
-<h1 align="center">:tv: Catalogo de Series</h1>
+<h1 align="center">:tv: Catálogo de Séries</h1>
 
 <p align="center">
   <a href="https://docs.mongodb.com/manual/release-notes/3.4/"><img src="https://img.shields.io/badge/mongoDB-v3.4.10-yellowgreen"></a>
@@ -28,6 +28,7 @@ de dois modais e uma tabela com opções de manipulação desses registros.
 - [Vue CLI v4.2.3](https://cli.vuejs.org/).
 - [Axios v0.19.2](https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html).
 - [Eslint v6.7.2](https://eslint.org/blog/2019/11/eslint-v6.7.2-released).
+- [Pexels.](https://www.pexels.com/pt-br/).
 
 ## :floppy_disk: Instalação
 Baixar repositório ```git clone https://github.com/PauloAlves8039/Catalogo-de-Series.git```
@@ -59,14 +60,20 @@ Ex: para adicionar um registro utilizo a rota: ```localhost:3000/api/nova-serie`
 
 
 ## :camera: Screenshots
-### Lista de series
-![screenshot1](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/screenshot1.png)
+### Página inicial
+![screenshot1](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot1.png)
 
-### Modal para cadastro de serie
-![screenshot2](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/screenshot2.png)
+### Página sobre
+![screenshot2](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot2.png)
 
-### Modal para editar serie
-![screenshot3](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/screenshot3.png)
+### lista de séries
+![screenshot3](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot3.png)
+
+### Modal para adicionar série
+![screenshot4](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot4.png)
+
+### Modal para atualizar série
+![screenshot5](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot5.png)
 
 ## Author
 :boy: [Paulo Alves](https://github.com/PauloAlves8039)
