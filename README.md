@@ -28,7 +28,11 @@ de dois modais e uma tabela com opções de manipulação desses registros.
 - [Vue CLI v4.2.3](https://cli.vuejs.org/).
 - [Axios v0.19.2](https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html).
 - [Eslint v6.7.2](https://eslint.org/blog/2019/11/eslint-v6.7.2-released).
+<<<<<<< HEAD
 - [Pexels.](https://www.pexels.com/pt-br/).
+=======
+- [Pexels](https://www.pexels.com/pt-br/).
+>>>>>>> 70a14cb03c05bbc9ac524e60da54c331c1bb9e18
 
 ## :floppy_disk: Instalação
 Baixar repositório ```git clone https://github.com/PauloAlves8039/Catalogo-de-Series.git```
