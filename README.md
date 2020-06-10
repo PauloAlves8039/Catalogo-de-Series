@@ -10,8 +10,7 @@
 ## :computer: Projeto
 Repositório de uma aplicação web desenvolvida para fins didáticos, no qual tem como objetivo catalogar uma lista de series favoritas usando MEVN Stack.  
 
-Nessa API é posivel realizar operações para listar, inserir, pesquisar, atualizar e excluir registros em uma interface gráfica com a utilização 
-de dois modais e uma tabela com opções de manipulação desses registros.
+Nessa API é posivel realizar operações para listar, inserir, pesquisar, atualizar e excluir registros em uma interface gráfica com a utilização de dois modais e uma tabela com opções de manipulação desses registros.
 
 ## :wrench: Recursos Utilizados
 - [Visual Studio Code v1.44.1](https://code.visualstudio.com/).
@@ -28,11 +27,7 @@ de dois modais e uma tabela com opções de manipulação desses registros.
 - [Vue CLI v4.2.3](https://cli.vuejs.org/).
 - [Axios v0.19.2](https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html).
 - [Eslint v6.7.2](https://eslint.org/blog/2019/11/eslint-v6.7.2-released).
-<<<<<<< HEAD
-- [Pexels.](https://www.pexels.com/pt-br/).
-=======
-- [Pexels](https://www.pexels.com/pt-br/).
->>>>>>> 70a14cb03c05bbc9ac524e60da54c331c1bb9e18
+- [Imagens do Pexels.](https://www.pexels.com/pt-br/).
 
 ## :floppy_disk: Instalação
 Baixar repositório ```git clone https://github.com/PauloAlves8039/Catalogo-de-Series.git```
@@ -78,6 +73,9 @@ Ex: para adicionar um registro utilizo a rota: ```localhost:3000/api/nova-serie`
 
 ### Modal para atualizar série
 ![screenshot5](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/frontend/src/assets/images/screenshot5.png)
+
+## :pencil: Licença
+Esse projeto está sob a licença [MIT](https://github.com/PauloAlves8039/Catalogo-de-Series/blob/master/LICENSE.md)
 
 ## Author
 :boy: [Paulo Alves](https://github.com/PauloAlves8039)
